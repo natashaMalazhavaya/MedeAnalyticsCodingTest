@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "XML Test suite" verbose="1">
+    <test name = "Natallia Malazhavaya tests">
+        <classes>
+            <class name = "com.ua.learning.project.implementation.login.LoginTest"/>
+            <class name = "com.ua.learning.project.implementation.menu.MenuTest"/>
+            <class name = "com.ua.learning.project.implementation.submit_registration.SubmitRegistrationTest"/>
+            <class name = "com.ua.learning.project.implementation.task4.CombinedStringTest"/>
+            <class name = "com.ua.learning.project.implementation.task5.CountVowelsTest"/>
+            <class name = "com.ua.learning.project.implementation.task6.ArraySubtractionTest"/>
+        </classes>
+    </test>
+</suite>
